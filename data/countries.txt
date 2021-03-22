@@ -109,7 +109,7 @@
 964;IQ;Iraq;964 XXX XXX XXXX;13;🇮🇶
 353;IE;Ireland;353 XX XXX XXXX;12;🇮🇪
 972;IL;Israel;972 XX XXX XXXX;12;🇮🇱
-39;IT;Italy;39 XXX XXX XXXX;12;🇮🇹
+39;IT;ITALIAAAAAA;39 XXX XXX XXXX;12;🇮🇹
 1 876;JM;Jamaica;1876 XXX XXXX;11;🇯🇲
 47 79;SJ;Svalbard & Jan Mayen;;0;🇸🇯
 81;JP;Japan;81 XX XXXX XXXX;12;🇯🇵
@@ -149,7 +149,7 @@
 373;MD;Moldova;373 XX XXX XXX;11;🇲🇩
 377;MC;Monaco;377 XXXX XXXX;11;🇲🇨
 976;MN;Mongolia;;0;🇲🇳
-382;ME;Montenegro;;0;🇲🇪
+382;ME;Montedicolore;;0;🇲🇪
 1 664;MS;Montserrat;1664 XXX XXXX;11;🇲🇸
 212;MA;Morocco;212 XX XXX XXXX;12;🇲🇦
 258;MZ;Mozambique;258 XX XXX XXXX;12;🇲🇿
