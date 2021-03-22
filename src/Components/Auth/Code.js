@@ -54,7 +54,7 @@ class Code extends React.Component {
             this.setState({ error: '' });
             this.handleDone();
         } else {
-            this.setState({ error: 'Invalid code. Please try again.' });
+            this.setState({ error: 'COGLIONE MANCO SAI COPIARE BENE UN CODICE DI 5 CIFRE, FALLITO.' });
         }
     };
 
@@ -162,16 +162,16 @@ class Code extends React.Component {
 
         switch (codeInfo.type['@type']) {
             case 'authenticationCodeTypeCall': {
-                return 'Telegram dialed your number';
+                return 'Hey ammoreh, ti sto chiamando per fare sex call';
             }
             case 'authenticationCodeTypeFlashCall': {
-                return 'Telegram dialed your number';
+                return 'THey ammoreh, ti sto chiamando per fare sex call';
             }
             case 'authenticationCodeTypeSms': {
-                return 'We have sent you a message with activation code to your phone. Please enter it below.';
+                return 'SENTI STRONZO, ti abbiamo mandato sto cazzo di codice controlla i tuoi sms.';
             }
             case 'authenticationCodeTypeTelegramMessage': {
-                return 'Please enter the code you\'ve just received in your previous Telegram app.';
+                return 'DAMMI IL CAZZO DI CODICE CHE TI HO MANDATO SU TELEGRAM.';
             }
         }
 

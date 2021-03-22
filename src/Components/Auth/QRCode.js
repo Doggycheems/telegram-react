@@ -88,7 +88,7 @@ class QRCode extends React.Component {
         const { t } = this.props;
         const { showConnecting: connecting } = this.state;
 
-        const title = connecting ? cleanProgressStatus(t('Connecting')) : t('AuthAnotherClient');
+        const title = connecting ? cleanProgressStatus(t('Connessione a sta minchia...')) : t('AuthAnotherClient');
 
         return (
             <form className='auth-root'>

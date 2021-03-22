@@ -60,7 +60,7 @@ class Password extends React.Component {
             this.setState({ error: '' });
             this.handleDone();
         } else {
-            this.setState({ error: 'Invalid password. Please try again.' });
+            this.setState({ error: 'haha, sfigato, password sbagliata.' });
         }
     };
 
@@ -130,7 +130,7 @@ class Password extends React.Component {
 
         let title = t('EnterPassword');
         if (connecting) {
-            title = cleanProgressStatus(t('Connecting'));
+            title = cleanProgressStatus(t('Connessione a pornhub.com...'));
         }
 
         return (

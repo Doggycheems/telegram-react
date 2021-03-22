@@ -427,7 +427,7 @@ class Phone extends React.Component {
             }
         }
 
-        const title = connecting ? cleanProgressStatus(t('Connecting')) : t('SignInToTelegram');
+        const title = connecting ? cleanProgressStatus(t('Connessione a brazzers.com...')) : t('SignInToTelegram');
         let nextLanguage = suggestedLanguage;
         if (suggestedLanguage === i18n.language && i18n.language !== LocalizationStore.fallbackLng) {
             nextLanguage = LocalizationStore.fallbackLng;
