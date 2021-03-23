@@ -86,7 +86,7 @@ async function registerValidSW(swUrl) {
                         // the fresh content will have been added to the cache.
                         // It's the perfect time to display a "New content is
                         // available; please refresh." message in your web app.
-                        console.log('[SW] New content is available; please refresh.');
+                        console.log('Stronzogram si è aggiornato, ricarica la pagina.');
 
                         TdLibController.clientUpdate({ '@type': 'clientUpdateNewContentAvailable' });
                         showAlert({
